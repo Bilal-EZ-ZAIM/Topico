@@ -1,0 +1,38 @@
+<div className="flex gap-1 items-center">
+{/* Star 1 */}
+<i
+  className={`bi ${
+    rating >= 1 ? "bi-star-fill" : "bi-star"
+  } text-yellow-500 text-xs`}
+></i>
+{/* Star 2 */}
+<i
+  className={`bi ${
+    rating >= 2 ? "bi-star-fill" : "bi-star"
+  } text-yellow-500 text-xs`}
+></i>
+{/* Star 3 */}
+<i
+  className={`bi ${
+    rating >= 3 ? "bi-star-fill" : "bi-star"
+  } text-yellow-500 text-xs`}
+></i>
+{/* Star 4 */}
+<i
+  className={`bi ${
+    rating >= 4 ? "bi-star-fill" : "bi-star"
+  } text-yellow-500 text-xs`}
+></i>
+{/* Star 5 */}
+<i
+  className={`bi ${
+    rating >= 4.5
+      ? "bi-star-half"
+      : rating >= 5
+      ? "bi-star-fill"
+      : "bi-star"
+  } text-yellow-500 text-xs`}
+></i>
+{/* Number of ratings */}
+<span className="text-xs text-gray-500">({rating})</span>
+</div>
