@@ -6,9 +6,9 @@ import { Pagination } from "swiper/modules";
 import "./styles.css";
 const Slider = () => {
   const images = [
-    "./img/slider-01.jpg",
-    "./img/slider-02.jpg",
-    "./img/slider-03.jpg",
+    "../img/slider-01.jpg",
+    "../img/slider-02.jpg",
+    "../img/slider-03.jpg",
   ];
   return (
     <>
