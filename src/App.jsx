@@ -12,7 +12,7 @@ import AllProducts from "./page/AllProducts";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Topico">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

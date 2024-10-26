@@ -6,27 +6,27 @@ const Feater = () => {
     {
       title: "Free Shipping",
       par: "Free shipping On all Order",
-      img: "./img/features1.png",
+      img: "https://bilal-ez-zaim.github.io/Topico/img/features1.png",
     },
     {
       title: "Money Guarantee",
       par: "30 Day Money Back Guarantee",
-      img: "./img/features2.png",
+      img: "https://bilal-ez-zaim.github.io/Topico/img/features2.png",
     },
     {
       title: "Online Support 24/7",
       par: "Technical SUpport Stand BY",
-      img: "./img/features3.png",
+      img: "https://bilal-ez-zaim.github.io/Topico/img/features3.png",
     },
     {
       title: "Secure Payment",
       par: "All Payment Method are    accepted",
-      img: "./img/features4.png",
+      img: "https://bilal-ez-zaim.github.io/Topico/img/features4.png",
     },
     {
       title: "Member Discount",
       par: "Upto 40% Discount All Products",
-      img: "./img/features5.png",
+      img: "https://bilal-ez-zaim.github.io/Topico/img/features5.png",
     },
   ];
   return (

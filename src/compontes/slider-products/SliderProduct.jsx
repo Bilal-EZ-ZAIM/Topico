@@ -82,14 +82,14 @@ const SliderProduct = ({ titel, banerImage = null, position = null }) => {
             >
               <div className=" w-full ">
                 <img
-                  src={`./img/product/${item.mainImage}`}
+                  src={`https://bilal-ez-zaim.github.io/Topico/img/product/${item.mainImage}`}
                   alt={item.title}
                   className="w-full h-full object-cover"
                   onMouseMove={(e) =>
-                    (e.currentTarget.src = `./img/product/${item.secondaryImage}`)
+                    (e.currentTarget.src = `https://bilal-ez-zaim.github.io/Topico/img/product/${item.secondaryImage}`)
                   }
                   onMouseLeave={(e) =>
-                    (e.currentTarget.src = `./img/product/${item.mainImage}`)
+                    (e.currentTarget.src = `https://bilal-ez-zaim.github.io/Topico/img/product/${item.mainImage}`)
                   }
                 />
               </div>
